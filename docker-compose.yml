@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  google1:
+    image: server
+    environment:
+      - APP=google
+    ports:
+      - "8081:5000"
+  google2:
+    image: server
+    environment:
+      - APP=google
+    ports:
+      - "8082:5000"
+  apple1:
+    image: server
+    environment:
+      - APP=apple
+    ports:
+      - "9081:5000"
+  apple2:
+    image: server
+    environment:
+      - APP=apple
+    ports:
+      - "9082:5000"
