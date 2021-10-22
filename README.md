@@ -17,6 +17,15 @@ Implement a Load Balancer in Python using TDD (Test Driven Development).
 
 ### procedure
 
+##### set up environment
+
+```
+$ virtualenv venv
+$ source venv/bin/activate # for linux
+```
+
+#### next procedure
+
 1. To install all required packages - `$ pip3 install requirements.txt`
 
 2. add a Dockerfile
@@ -53,11 +62,11 @@ This is the apple application.
 
 7. Run the test, `$ make test`. It should pass all the tests.
 
-#### test
+### test
 
 - To run pytest - `$ python -m pytest`
 - **To automate the test, run `$ make test`**
 
 ---
 
-[Reference: testdriven.io](https://testdriven.io/courses/http-load-balancer/concepts/)
+reference: [testdriven.io](https://testdriven.io/courses/http-load-balancer/concepts/)
