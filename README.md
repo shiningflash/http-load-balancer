@@ -14,3 +14,5 @@ Implement a Load Balancer in Python using TDD (Test Driven Development).
 To install all required packages - `$ pip3 install requirements.txt`
 
 To run the test - `$ python -m pytest`
+
+[Reference: testdriven.io](https://testdriven.io/courses/http-load-balancer/concepts/)
