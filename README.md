@@ -12,8 +12,10 @@ Implement a Load Balancer in Python using TDD (Test Driven Development).
 
 ### routing
 
-- host-based `$ git checkout host-based` or default `main`
+- host-based `$ git checkout host-based`
 - path-based `$ git checkout path-based`
+
+default `main` branch is path-based routing.
 
 ### procedure
 
@@ -24,7 +26,7 @@ $ virtualenv venv
 $ source venv/bin/activate # for linux
 ```
 
-#### next procedure
+##### next procedure
 
 1. To install all required packages - `$ pip3 install requirements.txt`
 

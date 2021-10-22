@@ -10,24 +10,18 @@ def client():
 
 
 def test_host_routing_google(client):
-    result = client.get('/', headers={
-        'Host': 'www.google.com'
-    })
+    result = client.get('/google')
     assert b'This is the google application' in result.data
     assert 200 == result.status_code
 
 
 def test_host_routing_apple(client):
-    result = client.get('/', headers={
-        'Host': "www.apple.com"
-    })
+    result = client.get('/apple')
     assert b'This is the apple application' in result.data
     assert 200 == result.status_code
 
 
 def test_host_routing_notfound(client):
-    result = client.get('/', headers={
-        'Host': 'www.notfound.com'
-    })
+    result = client.get('/notfound')
     assert b'Not found!' in result.data 
     assert 404 == result.status_code
